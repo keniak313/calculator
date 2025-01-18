@@ -33,11 +33,16 @@ body {
     flex: 1.2;
     height: 50px;
     background-color: rgb(126, 139, 156);
-    justify-content: end;
-    align-items: center;
+    justify-content: center;
+    align-items: end;
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom: 20px;
+    flex-direction: column;
+}
+.top{
+    font-size: 80%;
+    font-weight: 500;
 }
 
 #row{
@@ -62,8 +67,16 @@ button{
     opacity: 1;
 }
 
-button.function{
+button.function, button.dot,button.equal, button.del{
     background-color: rgb(63, 153, 206);
+}
+
+button.clear{
+    background-color: rgb(197, 73, 73);
+}
+
+button.del{
+    background-color: rgb(230, 162, 73);
 }
 
 button:hover{
@@ -72,4 +85,13 @@ button:hover{
 
 button:active{
     opacity: 0.6;
+}
+
+button:disabled{
+    background-color: rgb(38, 49, 73);
+}
+
+h1{
+    color: rgb(210, 222, 233);
+    margin-bottom: 40px;
 }

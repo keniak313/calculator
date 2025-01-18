@@ -8,8 +8,16 @@
     <link rel="stylesheet", href="./styles.css">
 </head>
 <body>
+    <h1>SUPER AWESOME CALCULATOR</h1>
     <div id="container">
-        <div id="display">WELCOME!</div>
+        <div id="display">
+            <div class="top"></div>
+            <div class="bot">Welcome</div>
+        </div>
+        <div id="row">
+            <button class="clear">AC</button>
+            <button class="del">DEL</button>
+        </div>
         <div id="row">
             <button class="number">7</button>
             <button class="number">8</button>
@@ -29,11 +37,12 @@
             <button class="function">*</button>
         </div>
         <div id="row">
-            <button class="function">.</button>
+            <button class="dot">.</button>
             <button class="number">0</button>
-            <button class="function">=</button>
+            <button class="equal" disabled>=</button>
             <button class="function">/</button>
         </div>
     </div>
+    <!-- <div class="debug">TEST</div> -->
 </body>
 </html>
