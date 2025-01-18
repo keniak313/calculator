@@ -94,4 +94,5 @@ button:disabled{
 h1{
     color: rgb(210, 222, 233);
     margin-bottom: 40px;
+    opacity: 0.2;
 }
